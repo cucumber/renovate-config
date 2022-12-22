@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base",
+    ":preserveSemverRanges",
+    ":rebaseStalePrs",
+    ":disableDependencyDashboard",
+    ":automergeBranch",
+    ":automergePatch",
+    ":automergeMinor"
+  ],
+  "prHourlyLimit": 0
+}
