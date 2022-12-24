@@ -8,7 +8,6 @@
     ":automergeBranch",
     ":automergePatch",
     ":automergeMinor",
-    ":gemspec"
   ],
   "prHourlyLimit": 0,
   "regexManagers": [
