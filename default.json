@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
     ":preserveSemverRanges",
@@ -6,7 +7,23 @@
     ":disableDependencyDashboard",
     ":automergeBranch",
     ":automergePatch",
-    ":automergeMinor"
+    ":automergeMinor",
+    ":gemspec"
   ],
-  "prHourlyLimit": 0
+  "prHourlyLimit": 0,
+  "gemspec": {
+    "description": "Support Gemspec files",
+    "regexManagers": [
+      {
+        "fileMatch": [
+          "^*.gemspec"
+        ],
+        "matchStrings": [
+          ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
+        ],
+        "datasourceTemplate": "rubygems",
+        "versioningTemplate": "ruby"
+      }
+    ]
+  }
 }
