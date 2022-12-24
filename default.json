@@ -11,19 +11,16 @@
     ":gemspec"
   ],
   "prHourlyLimit": 0,
-  "gemspec": {
-    "description": "Support Gemspec files",
-    "regexManagers": [
-      {
-        "fileMatch": [
-          "^*.gemspec"
-        ],
-        "matchStrings": [
-          ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
-        ],
-        "datasourceTemplate": "rubygems",
-        "versioningTemplate": "ruby"
-      }
-    ]
-  }
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^*.gemspec"
+      ],
+      "matchStrings": [
+        ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
+      ],
+      "datasourceTemplate": "rubygems",
+      "versioningTemplate": "ruby"
+    }
+  ]
 }
