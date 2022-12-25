@@ -8,18 +8,7 @@
     ":automergeBranch",
     ":automergePatch",
     ":automergeMinor",
+    "github>cucumber/renovate-config:gemspec"
   ],
-  "prHourlyLimit": 0,
-  "regexManagers": [
-    {
-      "fileMatch": [
-        "^*.gemspec"
-      ],
-      "matchStrings": [
-        ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
-      ],
-      "datasourceTemplate": "rubygems",
-      "versioningTemplate": "ruby"
-    }
-  ]
+  "prHourlyLimit": 0
 }
