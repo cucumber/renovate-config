@@ -4,7 +4,7 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "^*.gemspec"
+        "^.*\\.gemspec"
       ],
       "matchStrings": [
         ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
