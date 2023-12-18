@@ -6,7 +6,6 @@
     ":rebaseStalePrs",
     ":disableDependencyDashboard",
     ":automergeBranch",
-    ":automergePatch",
     ":automergeMinor",
     "github>cucumber/renovate-config:gemspec",
     "github>cucumber/renovate-config:disable-perl"
