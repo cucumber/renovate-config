@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Parse cpp/deps.txt files",
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "(^|/)deps\\.txt"
+      ],
+      "matchStrings": [
+        "https://github.com/(?<depName>.*?)/archive/refs/tags/(?<currentValue>.*?).zip"
+      ],
+      "datasourceTemplate": "github-tags",
+      "versioningTemplate": "semver"
+    }
+  ]
+}
