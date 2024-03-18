@@ -11,5 +11,6 @@
     "github>cucumber/renovate-config:disable-perl",
     "github>cucumber/renovate-config:cpp-deps-txt"
   ],
+  "labels": [":robot: dependencies"],
   "prHourlyLimit": 0
 }
