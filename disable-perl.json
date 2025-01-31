@@ -6,7 +6,7 @@
       "matchManagers": [
         "cpanfile"
       ],
-      "matchPackageNames": [
+      "matchDepNames": [
         "perl"
       ],
       "enabled": false
