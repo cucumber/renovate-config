@@ -4,7 +4,6 @@
     "config:recommended",
     ":preserveSemverRanges",
     ":rebaseStalePrs",
-    ":disableDependencyDashboard",
     ":automergeBranch",
     ":automergeMinor",
     "github>cucumber/renovate-config:gemspec",
