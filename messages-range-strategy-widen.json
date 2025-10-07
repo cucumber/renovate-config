@@ -4,43 +4,56 @@
   "packageRules": [
     {
       "matchManagers": "composer",
-      "matchPackageNames": "cucumber/messages",
+      "matchPackageNames": [
+        "cucumber/messages",
+        "cucumber/gherkin",
+        "cucumber/query"
+      ],
       "rangeStrategy": "widen"
     },
     {
       "matchManagers": "cpanfile",
-      "matchPackageNames": "Cucumber::Messages",
-      "rangeStrategy": "widen"
-    },
-    {
-      "matchManagers": "gomod",
-      "matchPackageNames": "github.com/cucumber/messages",
+      "matchPackageNames": [
+        "Cucumber::Messages",
+        "Cucumber::Gherkin",
+        "Cucumber::Query"
+      ],
       "rangeStrategy": "widen"
     },
     {
       "matchManagers": "maven",
-      "matchPackageNames": "io.cucumber:messages",
+      "matchPackageNames": [
+        "io.cucumber:messages",
+        "io.cucumber:gherkin",
+        "io.cucumber:query"
+      ],
       "rangeStrategy": "widen"
     },
     {
       "matchManagers": "mix",
-      "matchPackageNames": "cucumber_messages",
+      "matchPackageNames": [
+        "cucumber_messages",
+        "cucumber_gherkin",
+        "cucumber_query"
+      ],
       "rangeStrategy": "widen"
     },
     {
       "matchManagers": "npm",
-      "matchPackageNames": "@cucumber/messages",
+      "matchPackageNames": [
+        "@cucumber/messages",
+        "@cucumber/gherkin",
+        "@cucumber/query"
+      ],
       "rangeStrategy": "widen"
     },
     {
-      "description": "Don't use version ranges for .Net. Package managers don't support it properly.",
-      "matchManagers": "nuget",
-      "matchPackageNames": "@cucumber/messages",
-      "rangeStrategy": "auto"
-    },
-    {
-      "matchManagers": "custom",
-      "matchPackageNames": "cucumber-messages",
+      "matchDatasources": "rubygems",
+      "matchPackageNames": [
+        "cucumber-messages",
+        "cucumber-gherkin",
+        "cucumber-query"
+      ],
       "rangeStrategy": "widen"
     }
   ]
