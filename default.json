@@ -9,7 +9,8 @@
     "github>cucumber/renovate-config:gemspec",
     "github>cucumber/renovate-config:go",
     "github>cucumber/renovate-config:disable-perl",
-    "github>cucumber/renovate-config:cpp-deps-txt"
+    "github>cucumber/renovate-config:cpp-deps-txt",
+    "github>cucumber/renovate-config:messages-range-strategy-widen"
   ],
   "labels": [":robot: dependencies"]
 }
