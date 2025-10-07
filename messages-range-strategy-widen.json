@@ -3,12 +3,44 @@
   "description": "Widen ranges for Cucumber Messages, Gherkin and Query dependencies",
   "packageRules": [
     {
-      "matchPackageName": [
-        "@cucumber/messages",
-        "cucumber/messages",
-        "cucumber_messages",
-        "io.cucumber:messages"
-      ],
+      "matchManagers": "composer",
+      "matchPackageNames": "cucumber/messages",
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchManagers": "cpanfile",
+      "matchPackageNames": "Cucumber::Messages",
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchManagers": "gomod",
+      "matchPackageNames": "github.com/cucumber/messages",
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchManagers": "maven",
+      "matchPackageNames": "io.cucumber:messages",
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchManagers": "mix",
+      "matchPackageNames": "cucumber_messages",
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchManagers": "npm",
+      "matchPackageNames": "@cucumber/messages",
+      "rangeStrategy": "widen"
+    },
+    {
+      "description": "Don't use version ranges for .Net. Package managers don't support it properly.",
+      "matchManagers": "nuget",
+      "matchPackageNames": "@cucumber/messages",
+      "rangeStrategy": "auto"
+    },
+    {
+      "matchManagers": "custom",
+      "matchPackageNames": "cucumber-messages",
       "rangeStrategy": "widen"
     }
   ]
