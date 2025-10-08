@@ -21,10 +21,6 @@
     {
       "matchManagers": "npm",
       "rangeStrategy": "preserve"
-    },
-    {
-      "matchDatasources": "rubygems",
-      "rangeStrategy": "preserve"
     }
   ]
 }

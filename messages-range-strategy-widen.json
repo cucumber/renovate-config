@@ -46,15 +46,6 @@
         "@cucumber/query"
       ],
       "rangeStrategy": "widen"
-    },
-    {
-      "matchDatasources": "rubygems",
-      "matchPackageNames": [
-        "cucumber-messages",
-        "cucumber-gherkin",
-        "cucumber-query"
-      ],
-      "rangeStrategy": "widen"
     }
   ]
 }
