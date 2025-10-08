@@ -5,7 +5,7 @@
     ":rebaseStalePrs",
     ":automergeBranch",
     ":automergeMinor",
-    "github>cucumber/renovate-config:preserve-semver-ranges",
+    "github>cucumber/renovate-config:range-strategy-preserve",
     "github>cucumber/renovate-config:gemspec",
     "github>cucumber/renovate-config:go",
     "github>cucumber/renovate-config:disable-perl",
