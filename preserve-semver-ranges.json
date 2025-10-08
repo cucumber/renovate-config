@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Preserve ranges for package managers where this makes sense",
+  "packageRules": [
+    {
+      "matchManagers": "composer",
+      "rangeStrategy": "preserve"
+    },
+    {
+      "matchManagers": "cpanfile",
+      "rangeStrategy": "preserve"
+    },
+    {
+      "matchManagers": "maven",
+      "rangeStrategy": "preserve"
+    },
+    {
+      "matchManagers": "mix",
+      "rangeStrategy": "preserve"
+    },
+    {
+      "matchManagers": "npm",
+      "rangeStrategy": "preserve"
+    },
+    {
+      "matchDatasources": "rubygems",
+      "rangeStrategy": "preserve"
+    }
+  ]
+}

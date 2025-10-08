@@ -12,16 +12,5 @@
       "datasourceTemplate": "rubygems",
       "versioningTemplate": "ruby"
     }
-  ],
-  "packageRules": [
-    {
-      "description": "Applies \":preserveSemverRanges\" to the custom above manager. See: https://github.com/renovatebot/renovate/discussions/28090",
-      "matchDatasources": [
-        "rubygems"
-      ],
-      "matchManagers": [
-        "custom.regex"
-      ]
-    }
   ]
 }
