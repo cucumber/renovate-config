@@ -10,7 +10,8 @@
     "github>cucumber/renovate-config:go",
     "github>cucumber/renovate-config:disable-perl",
     "github>cucumber/renovate-config:cpp-deps-txt",
-    "github>cucumber/renovate-config:npm-cucumber-minimum-release-age"
+    "github>cucumber/renovate-config:npm-cucumber-minimum-release-age", 
+    "github>cucumber/renovate-config:maven-cucumber-minimum-release-age"
   ],
   "labels": [":robot: dependencies"]
 }
