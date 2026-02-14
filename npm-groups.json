@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Group related npm packages together to reduce thrashing",
+  "packageRules": [
+    {
+      "groupName": "cucumber ecosystem",
+      "matchPackagePatterns": ["^@cucumber/"]
+    },
+    {
+      "groupName": "eslint ecosystem",
+      "matchPackagePatterns": ["^eslint", "^@eslint/", "^@typescript-eslint/", "^globals$"]
+    },
+    {
+      "groupName": "mocha/chai/sinon ecosystem",
+      "matchPackageNames": [
+        "mocha",
+        "chai",
+        "chai-dom",
+        "sinon",
+        "sinon-chai",
+        "@types/mocha",
+        "@types/chai",
+        "@types/chai-dom",
+        "@types/sinon",
+        "@types/sinon-chai"
+      ]
+    }
+  ]
+}
