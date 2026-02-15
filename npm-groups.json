@@ -16,11 +16,14 @@
         "mocha",
         "chai",
         "chai-dom",
+        "chai-exclude",
+        "dirty-chai",
         "sinon",
         "sinon-chai",
         "@types/mocha",
         "@types/chai",
         "@types/chai-dom",
+        "@types/dirty-chai",
         "@types/sinon",
         "@types/sinon-chai"
       ]
