@@ -13,6 +13,7 @@
     "github>cucumber/renovate-config:cpp-deps-txt",
     "github>cucumber/renovate-config:npm-groups",
     "github>cucumber/renovate-config:npm-cucumber-minimum-release-age",
+    "github>cucumber/renovate-config:mvn-groups",
     "github>cucumber/renovate-config:maven-cucumber-minimum-release-age"
   ],
   "labels": [":robot: dependencies"]

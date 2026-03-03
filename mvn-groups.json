@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Group related Maven packages together to reduce thrashing",
+  "packageRules": [
+    {
+      "groupName": "cucumber ecosystem",
+      "matchPackagePatterns": ["^io.cucumber:"]
+    }
+  ]
+}
