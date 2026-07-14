@@ -11,7 +11,6 @@
     "github>cucumber/renovate-config:dependencies-cpm-cmake",
     "github>cucumber/renovate-config:go",
     "github>cucumber/renovate-config:disable-perl",
-    "github>cucumber/renovate-config:cpp-deps-txt",
     "github>cucumber/renovate-config:nuget-disable-fluent-assertions",
     "github>cucumber/renovate-config:npm-groups",
     "github>cucumber/renovate-config:npm-cucumber-minimum-release-age",
