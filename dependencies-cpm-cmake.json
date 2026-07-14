@@ -9,7 +9,7 @@
         "/(^|/)dependencies.cpm.cmake$/"
       ],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+?)(?: depName=(?<depName>.+?))? packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\sset(.+?_HASH_VERSION (?:<currentDigest>.+?) (?:<currentValue>.+?))"
+        "# renovate: datasource=(?<datasource>[a-z-]+?)(?: depName=(?<depName>.+?))? packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\sset\\(.+?_HASH_VERSION (?<currentDigest>.+?) (?<currentValue>.+?)\\)"
       ]
     }
   ]
