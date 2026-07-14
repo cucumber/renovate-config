@@ -4,12 +4,12 @@
   "customManagers": [
     {
       "customType": "regex",
-      "description": "Update version variables in dependencies.cpm.cmake. The format should look like this\n```\n# renovate: datasource=github-tags packageName=<org/repo> versioning=semver\nset(<DEPENDENCY_NAME>_HASH_VERSION <digest> <version>)\n```",
+      "description": "Update version variables in dependencies.cpm.cmake. The format should look like this\n```\n# renovate: datasource=github-tags packageName=<org/repo> versioning=semver\nset(<DEPENDENCY_NAME>_TAG_DIGEST v<version> <digest>)\n```",
       "managerFilePatterns": [
         "/(^|/)dependencies.cpm.cmake$/"
       ],
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>[a-z-]+?)(?: depName=(?<depName>.+?))? packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\sset\\(.+?_HASH_VERSION (?<currentDigest>.+?) (?<currentValue>.+?)\\)"
+        "# renovate: datasource=(?<datasource>[a-z-]+?)(?: depName=(?<depName>.+?))? packageName=(?<packageName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\sset\\(.+?_TAG_DIGEST (?<currentValue>.+?) (?<currentDigest>.+?)\\)"
       ]
     }
   ]
