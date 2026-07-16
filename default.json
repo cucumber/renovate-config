@@ -6,7 +6,6 @@
     ":automergeBranch",
     ":automergeMinor",
     "helpers:pinGitHubActionDigests",
-    "github>cucumber/renovate-config:range-strategy-preserve",
     "github>cucumber/renovate-config:gemspec",
     "github>cucumber/renovate-config:dependencies-cpm-cmake",
     "github>cucumber/renovate-config:go",
