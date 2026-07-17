@@ -7,15 +7,15 @@
     ":automergeMinor",
     "helpers:pinGitHubActionDigests",
     "github>cucumber/renovate-config:rate-limits",
-    "github>cucumber/renovate-config:cpp/dependencies-cpm-cmake",
-    "github>cucumber/renovate-config:dotnet/nuget-disable-fluent-assertions",
-    "github>cucumber/renovate-config:go/go",
-    "github>cucumber/renovate-config:java/maven-cucumber-minimum-release-age",
-    "github>cucumber/renovate-config:java/mvn-groups",
-    "github>cucumber/renovate-config:npm/npm-cucumber-minimum-release-age",
-    "github>cucumber/renovate-config:npm/npm-groups",
-    "github>cucumber/renovate-config:perl/disable-perl",
-    "github>cucumber/renovate-config:ruby/gemspec"
+    "github>cucumber/renovate-config:gemspec",
+    "github>cucumber/renovate-config:dependencies-cpm-cmake",
+    "github>cucumber/renovate-config:go",
+    "github>cucumber/renovate-config:disable-perl",
+    "github>cucumber/renovate-config:nuget-disable-fluent-assertions",
+    "github>cucumber/renovate-config:npm-groups",
+    "github>cucumber/renovate-config:npm-cucumber-minimum-release-age",
+    "github>cucumber/renovate-config:mvn-groups",
+    "github>cucumber/renovate-config:maven-cucumber-minimum-release-age"
   ],
   "labels": [":robot: dependencies"]
 }
