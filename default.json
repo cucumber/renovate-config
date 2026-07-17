@@ -6,6 +6,7 @@
     ":automergeBranch",
     ":automergeMinor",
     "helpers:pinGitHubActionDigests",
+    "github>cucumber/renovate-config:rate-limits",
     "github>cucumber/renovate-config:cpp/dependencies-cpm-cmake",
     "github>cucumber/renovate-config:dotnet/nuget-disable-fluent-assertions",
     "github>cucumber/renovate-config:go/go",
