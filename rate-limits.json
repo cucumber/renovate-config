@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Create at-most 8 commits and 2 PRs per hour. But do allow an unlimited number of open PRs.",
+  "description": "Create at-most 8 commits and 2 PRs per hour per repository. But do allow an unlimited number of open PRs.",
   "prConcurrentLimit": 0,
   "prHourlyLimit": 2,
   "commitHourlyLimit": 8
