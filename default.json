@@ -7,7 +7,6 @@
     ":automergeMinor",
     "helpers:pinGitHubActionDigests",
     "github>cucumber/renovate-config:rate-limits",
-    "github>cucumber/renovate-config:gemspec",
     "github>cucumber/renovate-config:dependencies-cpm-cmake",
     "github>cucumber/renovate-config:go",
     "github>cucumber/renovate-config:disable-perl-version",
