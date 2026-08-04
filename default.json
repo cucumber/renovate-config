@@ -17,5 +17,6 @@
     "github>cucumber/renovate-config:mvn-groups",
     "github>cucumber/renovate-config:maven-cucumber-minimum-release-age"
   ],
-  "labels": [":robot: dependencies"]
+  "labels": [":robot: dependencies"],
+  "stopUpdatingLabel": ":pause_button: paused"
 }
