@@ -1,0 +1,37 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Wait for npm packages to be two days old before updating, to allow time for malicious releases to be detected",
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "minimumReleaseAge": "2 days"
+    },
+    {
+      "description": "Exempt update types that have no release timestamp, which would otherwise never be updated",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchUpdateTypes": [
+        "bump",
+        "lockFileMaintenance",
+        "lockfileUpdate",
+        "pin",
+        "replacement",
+        "rollback"
+      ],
+      "minimumReleaseAge": null
+    },
+    {
+      "description": "Do not artificially delay updating npm packages from the cucumber org",
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchDepNames": [
+        "@cucumber/**"
+      ],
+      "minimumReleaseAge": null
+    }
+  ]
+}

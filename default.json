@@ -13,9 +13,9 @@
     "github>cucumber/renovate-config:disable-ruby-version",
     "github>cucumber/renovate-config:nuget-disable-fluent-assertions",
     "github>cucumber/renovate-config:npm-groups",
-    "github>cucumber/renovate-config:npm-cucumber-minimum-release-age",
+    "github>cucumber/renovate-config:npm-minimum-release-age",
     "github>cucumber/renovate-config:mvn-groups",
-    "github>cucumber/renovate-config:maven-cucumber-minimum-release-age"
+    "github>cucumber/renovate-config:maven-minimum-release-age"
   ],
   "labels": [":robot: dependencies"],
   "stopUpdatingLabel": ":pause_button: paused"
