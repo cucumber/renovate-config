@@ -1,14 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "",
+  "description": "Do not artificially delay updating npm packages from @cucumber",
   "packageRules": [
     {
-      "description": "Do not artificially delay updating Maven dependencies from the io.cucumber",
       "matchDatasources": [
-        "maven"
+        "npm"
       ],
       "matchDepNames": [
-        "io.cucumber:**"
+        "@cucumber/**"
       ],
       "minimumReleaseAge": null
     }
