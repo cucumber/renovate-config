@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Do not artificially delay updating npm packages from the cucumber org",
+  "description": "Do not artificially delay updating npm packages from @cucumber",
   "packageRules": [
     {
       "matchDatasources": [
