@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Update version variables in dependencies/*.version",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update version variables in dependencies/*.version. The format should look like this\n```\n<repo/org>@<digest> # v<version/ref>)\n```",
+      "managerFilePatterns": [
+        "/(^|/)dependencies/*.version$/"
+      ],
+      "versioningTemplate": "semver",
+      "datasourceTemplate": "github-tags",
+      "matchStrings": [
+        "(?<packageName>.+?)@(?<currentDigest>.+?) # v(?<currentValue>.*)"
+      ]
+    }
+  ]
+}
