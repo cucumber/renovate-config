@@ -6,7 +6,7 @@
       "customType": "regex",
       "description": "Update version variables in dependencies/*.version. The format should look like this\n```\n<repo/org>@<digest> # <tag/ref>)\n```",
       "managerFilePatterns": [
-        "/(^|/)dependencies/*.version$/"
+        "/(^|/)dependencies/.+\\.version$/"
       ],
       "versioningTemplate": "semver",
       "datasourceTemplate": "github-tags",
